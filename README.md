@@ -7,7 +7,7 @@ A responsive, single-page portfolio for Abhilash Antony, Associate Software Engi
 - Responsive portfolio sections: intro, outcomes, about, selected work, experience, skills, education and contact.
 - Project category filters and mobile navigation.
 - Accessible navigation labels, reduced-motion support, SEO metadata and a custom favicon.
-- Resume download (`documents/Abhilash_Antony_Resume.docx`).
+- Resume download (`documents/ABHILASH_ANTONY.pdf`).
 - No npm packages or build step required.
 
 ## 1. Preview locally
@@ -68,7 +68,7 @@ After the first deploy, future commits pushed to `main` will update the publishe
 ## Personalise before publishing
 
 - **Headshot:** the file named `Abhilash PP.jpg` was not present among the files available for this build. For the initial preview, the website uses the portrait already shown on your existing portfolio URL. To make the website self-contained, copy your desired photo into `assets/Abhilash PP.jpg`, then change the `src` of the `<img data-portrait>` element near the top of `index.html` to `assets/Abhilash%20PP.jpg`. You can delete the external image preconnect line once switched to the local image. If the remote portrait fails to load, a local initials illustration is used as a fallback.
-- **Resume:** replace `documents/Abhilash_Antony_Resume.docx` when you update your resume. Keep the filename the same, or update the download link in `index.html`.
+- **Resume:** replace `documents/ABHILASH_ANTONY.pdf` when you update your resume. Keep the filename the same, or update the download link in `index.html`.
 - **Links:** confirm your LinkedIn, GitHub and project links before publishing.
 - **Project descriptions and metrics:** descriptions are based on your provided resume and LinkedIn/portfolio profile; update any details that change.
 
@@ -85,7 +85,7 @@ abhilash-portfolio/
 │   ├── avatar.svg
 │   └── favicon.svg
 └── documents/
-    └── Abhilash_Antony_Resume.docx
+    └── ABHILASH_ANTONY.pdf
 ```
 
 ## Notes
